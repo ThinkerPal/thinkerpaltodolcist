@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To-Do" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0E-gG-mvC">
-                                <rect key="frame" x="108" y="140" width="159" height="127"/>
+                                <rect key="frame" x="108.5" y="140" width="158.5" height="127"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source Code at http://bit.ly/2MGNTVY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kP1-uy-LmR">
-                                <rect key="frame" x="41" y="611" width="293" height="21"/>
+                                <rect key="frame" x="41.5" y="611" width="292" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,14 +32,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.94661280335585629" green="0.90041476547102073" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="p0E-gG-mvC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="86q-0A-5Hd"/>
+                            <constraint firstItem="kP1-uy-LmR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4Yv-Bl-yF8"/>
                             <constraint firstItem="p0E-gG-mvC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="HhL-Fq-tf8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p0E-gG-mvC" secondAttribute="bottom" constant="400" id="RgG-jS-U9l"/>
                             <constraint firstItem="kP1-uy-LmR" firstAttribute="top" secondItem="p0E-gG-mvC" secondAttribute="bottom" constant="344" id="Ztr-OX-uJI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p0E-gG-mvC" secondAttribute="trailing" constant="108" id="cyf-gA-zdQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kP1-uy-LmR" secondAttribute="trailing" constant="41" id="e2s-42-M6H"/>
+                            <constraint firstItem="p0E-gG-mvC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iSS-dG-PfC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kP1-uy-LmR" secondAttribute="bottom" constant="35" id="o35-xa-MOi"/>
-                            <constraint firstItem="kP1-uy-LmR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="vqs-od-Jm7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
