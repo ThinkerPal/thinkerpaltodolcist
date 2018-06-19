@@ -540,7 +540,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SO-Kh-zmS">
-                                <rect key="frame" x="147" y="161" width="213" height="62"/>
+                                <rect key="frame" x="160" y="176" width="194" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="thinkerpal@gmail.com"/>
                                 <connections>
@@ -550,12 +550,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="4SO-Kh-zmS" firstAttribute="top" secondItem="9hy-px-eHl" secondAttribute="top" constant="45" id="49F-WX-nuF"/>
+                            <constraint firstItem="4SO-Kh-zmS" firstAttribute="top" secondItem="9hy-px-eHl" secondAttribute="top" constant="60" id="49F-WX-nuF"/>
                             <constraint firstItem="NLS-g3-ajw" firstAttribute="top" secondItem="9hy-px-eHl" secondAttribute="top" constant="16" id="Aas-JZ-1XJ"/>
                             <constraint firstItem="NLS-g3-ajw" firstAttribute="leading" secondItem="9hy-px-eHl" secondAttribute="leading" constant="16" id="HrK-BJ-Mil"/>
-                            <constraint firstItem="4SO-Kh-zmS" firstAttribute="leading" secondItem="9hy-px-eHl" secondAttribute="leading" constant="147" id="ZHs-s0-srl"/>
-                            <constraint firstItem="9hy-px-eHl" firstAttribute="bottom" secondItem="4SO-Kh-zmS" secondAttribute="bottom" constant="395" id="lB3-7g-4wN"/>
-                            <constraint firstItem="9hy-px-eHl" firstAttribute="trailing" secondItem="4SO-Kh-zmS" secondAttribute="trailing" constant="15" id="lGL-1z-dhR"/>
+                            <constraint firstItem="4SO-Kh-zmS" firstAttribute="leading" secondItem="9hy-px-eHl" secondAttribute="leading" constant="160" id="ZHs-s0-srl"/>
                             <constraint firstItem="9hy-px-eHl" firstAttribute="trailing" secondItem="NLS-g3-ajw" secondAttribute="trailing" constant="16" id="lhE-To-uTD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9hy-px-eHl"/>
