@@ -422,7 +422,20 @@
                     <view key="view" contentMode="scaleToFill" id="aR1-Mu-0Xj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is an app that we developed during the Swift Accelerator Course 2018" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxv-VD-o4f">
+                                <rect key="frame" x="16" y="132" width="343" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xhm-Hu-Uxo" firstAttribute="trailing" secondItem="Nxv-VD-o4f" secondAttribute="trailing" constant="16" id="XWd-Cf-gEp"/>
+                            <constraint firstItem="Nxv-VD-o4f" firstAttribute="leading" secondItem="xhm-Hu-Uxo" secondAttribute="leading" constant="16" id="fgM-D6-a4B"/>
+                            <constraint firstItem="Nxv-VD-o4f" firstAttribute="top" secondItem="xhm-Hu-Uxo" secondAttribute="top" constant="16" id="jD1-jO-mpM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xhm-Hu-Uxo"/>
                     </view>
                     <navigationItem key="navigationItem" title="About this app" id="uoq-0q-wdp"/>
