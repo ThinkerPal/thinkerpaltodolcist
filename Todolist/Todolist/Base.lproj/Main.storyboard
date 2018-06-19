@@ -12,7 +12,7 @@
         <!--Root View Controller-->
         <scene sceneID="mO2-3C-kg0">
             <objects>
-                <tableViewController id="Zlh-bA-5Ty" sceneMemberID="viewController">
+                <tableViewController id="Zlh-bA-5Ty" customClass="ArrangedTableViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vYP-pS-D2O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
