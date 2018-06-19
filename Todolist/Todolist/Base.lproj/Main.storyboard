@@ -251,7 +251,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5pb-GA-mxj" kind="show" trigger="accessoryAction" id="FZw-Wa-R3y"/>
+                                            <segue destination="5pb-GA-mxj" kind="show" id="qSW-C2-C2Q"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="pTb-3a-BrX">
@@ -299,7 +299,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="FaX-DB-W1r" kind="show" trigger="accessoryAction" id="soC-Cp-yYq"/>
+                                            <segue destination="FaX-DB-W1r" kind="show" id="hY5-lb-TSV"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -350,7 +350,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="aip-KE-wA4" kind="show" trigger="accessoryAction" id="4DH-eg-4gZ"/>
+                                            <segue destination="aip-KE-wA4" kind="show" id="7sL-AU-Odr"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="agh-ml-Rez">
@@ -398,7 +398,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="v7t-dw-qXb" kind="show" trigger="accessoryAction" id="f03-Ns-wrh"/>
+                                            <segue destination="v7t-dw-qXb" kind="show" id="FSu-Jr-6At"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
