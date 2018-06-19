@@ -17,6 +17,12 @@ class ContactViewController: UIViewController {
     }
     
 
+    @IBAction func emailButtonPressed(_ sender: Any) {
+        let email = "thinkerpal@gmail.com"
+        if let url = URL(string: "mailto:\(email)") {
+            UIApplication.shared.open(url)
+        }
+    }
     /*
     // MARK: - Navigation
 
