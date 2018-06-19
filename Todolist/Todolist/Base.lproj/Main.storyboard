@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Categories-->
         <scene sceneID="mO2-3C-kg0">
             <objects>
                 <tableViewController id="Zlh-bA-5Ty" customClass="ArrangedTableViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,9 @@
                             <outlet property="delegate" destination="Zlh-bA-5Ty" id="H7o-PJ-dhh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="LKF-gD-7XW"/>
+                    <navigationItem key="navigationItem" title="Categories" id="LKF-gD-7XW">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ih8-Iu-YoD"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="PhV-dz-0Fn" kind="show" id="qx2-yZ-TPx"/>
                     </connections>
@@ -41,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="-806" y="-429"/>
         </scene>
-        <!--Root View Controller-->
+        <!--To-Do's-->
         <scene sceneID="Xh3-r3-LDU">
             <objects>
                 <tableViewController id="PhV-dz-0Fn" customClass="MainListTableViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
@@ -64,7 +66,9 @@
                             <outlet property="delegate" destination="PhV-dz-0Fn" id="nyg-Tc-txe"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Uwa-QK-KoT"/>
+                    <navigationItem key="navigationItem" title="To-Do's" id="Uwa-QK-KoT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fOa-sF-EJg"/>
+                    </navigationItem>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" id="SlM-ob-vbx"/>
                     </connections>
@@ -77,8 +81,8 @@
         <scene sceneID="k3n-QV-Asn">
             <objects>
                 <navigationController id="I64-NZ-9w8" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z8H-6e-CG0">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="z8H-6e-CG0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -93,8 +97,8 @@
         <scene sceneID="bwa-B7-Y7H">
             <objects>
                 <navigationController id="lAS-dl-YEW" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k0E-CG-byA">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="k0E-CG-byA">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
