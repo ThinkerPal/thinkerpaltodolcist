@@ -510,11 +510,11 @@
             </objects>
             <point key="canvasLocation" x="-2010" y="-582"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="f9E-yh-aCZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ODx-Cd-lmg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="GYf-6f-gCk"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="baseline-settings-20px" landscapeImage="baseline-settings-20px" selectedImage="baseline-settings-20px" id="GYf-6f-gCk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="cpq-W8-kQz">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -529,11 +529,11 @@
             </objects>
             <point key="canvasLocation" x="-954" y="-2105"/>
         </scene>
-        <!--Item-->
+        <!--Reminders-->
         <scene sceneID="mWB-c7-alm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LO2-4e-fn3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Dja-hN-WZ5"/>
+                    <tabBarItem key="tabBarItem" title="Reminders" image="baseline_list_black_18dp" landscapeImage="baseline_list_black_18dp" selectedImage="baseline_list_black_18dp" id="Dja-hN-WZ5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="SLK-Ao-nEv">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -549,6 +549,10 @@
             <point key="canvasLocation" x="-954" y="-218"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baseline-settings-20px" width="20" height="20"/>
+        <image name="baseline_list_black_18dp" width="18" height="18"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="qx2-yZ-TPx"/>
     </inferredMetricsTieBreakers>
