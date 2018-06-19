@@ -42,7 +42,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJv-O8-xkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-429.53523238380814"/>
+            <point key="canvasLocation" x="636" y="-342.27886056971516"/>
         </scene>
         <!--To-Do's-->
         <scene sceneID="Xh3-r3-LDU">
@@ -107,7 +107,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1968.8" y="157.87106446776613"/>
+            <point key="canvasLocation" x="2908" y="157.87106446776613"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="0mc-R1-9jS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="azj-l7-V7N" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vel-dS-f9p">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zlh-bA-5Ty" kind="relationship" relationship="viewControllers" id="QFW-UD-ane"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rG8-Z8-DSE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-303.19999999999999" y="-342.27886056971516"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
