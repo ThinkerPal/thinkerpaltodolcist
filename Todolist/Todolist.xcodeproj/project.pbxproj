@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0045F1F20D93E8300459B7F /* ArrangedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0045F1E20D93E8300459B7F /* ArrangedTableViewController.swift */; };
+		A0045F2120D93F6F00459B7F /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0045F2020D93F6F00459B7F /* todo.swift */; };
 		A03209F720D8F9FF00133ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03209F620D8F9FF00133ACB /* AppDelegate.swift */; };
 		A03209F920D8F9FF00133ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03209F820D8F9FF00133ACB /* ViewController.swift */; };
 		A03209FC20D8F9FF00133ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03209FA20D8F9FF00133ACB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A0045F1E20D93E8300459B7F /* ArrangedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangedTableViewController.swift; sourceTree = "<group>"; };
+		A0045F2020D93F6F00459B7F /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
 		A03209F320D8F9FF00133ACB /* Todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03209F620D8F9FF00133ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03209F820D8F9FF00133ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A03209F620D8F9FF00133ACB /* AppDelegate.swift */,
 				A03209F820D8F9FF00133ACB /* ViewController.swift */,
 				A03209FA20D8F9FF00133ACB /* Main.storyboard */,
+				A0045F2020D93F6F00459B7F /* todo.swift */,
 				A0045F1E20D93E8300459B7F /* ArrangedTableViewController.swift */,
 				A03209FD20D8FA0000133ACB /* Assets.xcassets */,
 				A03209FF20D8FA0000133ACB /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				A03209F920D8F9FF00133ACB /* ViewController.swift in Sources */,
 				A03209F720D8F9FF00133ACB /* AppDelegate.swift in Sources */,
 				A0045F1F20D93E8300459B7F /* ArrangedTableViewController.swift in Sources */,
+				A0045F2120D93F6F00459B7F /* todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
