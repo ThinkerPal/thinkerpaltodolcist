@@ -135,7 +135,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="zc2-g9-cwa" kind="show" id="rnF-NT-iQf"/>
+                                    <segue destination="zc2-g9-cwa" kind="show" identifier="showDetail" id="rnF-NT-iQf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="-15" y="639"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="RDQ-Nk-0dc">
             <objects>
-                <viewController id="zc2-g9-cwa" customClass="ViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zc2-g9-cwa" customClass="DetailsViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hV3-Xe-sg7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
