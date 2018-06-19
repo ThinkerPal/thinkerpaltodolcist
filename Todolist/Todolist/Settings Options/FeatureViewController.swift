@@ -12,7 +12,7 @@ class FeatureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Features of this app"
         // Do any additional setup after loading the view.
     }
     

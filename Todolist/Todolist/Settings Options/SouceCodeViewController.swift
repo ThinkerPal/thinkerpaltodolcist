@@ -12,6 +12,7 @@ class SouceCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Source Code"
 
         // Do any additional setup after loading the view.
     }

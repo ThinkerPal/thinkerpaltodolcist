@@ -12,7 +12,7 @@ class HelpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Help"
         // Do any additional setup after loading the view.
     }
     

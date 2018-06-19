@@ -12,7 +12,7 @@ class ContactViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Contact Us"
         // Do any additional setup after loading the view.
     }
     
