@@ -56,6 +56,7 @@
 		A0045F3220D9552400459B7F /* Settings Options */ = {
 			isa = PBXGroup;
 			children = (
+				A0045F2420D946C200459B7F /* SettingsTableViewController.swift */,
 				A0045F2C20D9550400459B7F /* SouceCodeViewController.swift */,
 				A0045F2E20D9550B00459B7F /* HelpViewController.swift */,
 				A0045F3020D9551700459B7F /* ContactViewController.swift */,
@@ -88,7 +89,6 @@
 				A03209F820D8F9FF00133ACB /* ViewController.swift */,
 				A03209FA20D8F9FF00133ACB /* Main.storyboard */,
 				A0045F3220D9552400459B7F /* Settings Options */,
-				A0045F2420D946C200459B7F /* SettingsTableViewController.swift */,
 				A0045F2220D9440800459B7F /* MainListTableViewController.swift */,
 				A0045F2020D93F6F00459B7F /* todo.swift */,
 				A0045F1E20D93E8300459B7F /* ArrangedTableViewController.swift */,
