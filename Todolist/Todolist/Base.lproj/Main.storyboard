@@ -458,9 +458,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxi-iT-V6o">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxi-iT-V6o">
                                 <rect key="frame" x="47" y="174" width="198" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="http://bit.ly/2MGNTVY"/>
                                 <connections>
@@ -470,9 +469,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="bxi-iT-V6o" firstAttribute="top" secondItem="c8s-LM-7Y9" secondAttribute="top" constant="58" id="7EI-Pd-wq6"/>
                             <constraint firstItem="rnv-cS-Br5" firstAttribute="leading" secondItem="c8s-LM-7Y9" secondAttribute="leading" constant="16" id="e5d-D8-yc1"/>
                             <constraint firstItem="c8s-LM-7Y9" firstAttribute="trailing" secondItem="rnv-cS-Br5" secondAttribute="trailing" constant="16" id="gDb-Ci-IYP"/>
                             <constraint firstItem="rnv-cS-Br5" firstAttribute="top" secondItem="c8s-LM-7Y9" secondAttribute="top" constant="16" id="t6A-HF-4vd"/>
+                            <constraint firstItem="bxi-iT-V6o" firstAttribute="leading" secondItem="c8s-LM-7Y9" secondAttribute="leading" constant="47" id="xYQ-lw-zw1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c8s-LM-7Y9"/>
                     </view>
@@ -517,7 +518,20 @@
                     <view key="view" contentMode="scaleToFill" id="aAW-F6-ZOT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'll explain ;)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvc-TH-1Ff">
+                                <rect key="frame" x="16" y="132" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bfc-30-kuE" firstAttribute="trailing" secondItem="cvc-TH-1Ff" secondAttribute="trailing" constant="16" id="8mm-A7-HcL"/>
+                            <constraint firstItem="cvc-TH-1Ff" firstAttribute="top" secondItem="Bfc-30-kuE" secondAttribute="top" constant="16" id="VjF-Yg-RxW"/>
+                            <constraint firstItem="cvc-TH-1Ff" firstAttribute="leading" secondItem="Bfc-30-kuE" secondAttribute="leading" constant="16" id="m8r-EI-zEq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bfc-30-kuE"/>
                     </view>
                 </viewController>
