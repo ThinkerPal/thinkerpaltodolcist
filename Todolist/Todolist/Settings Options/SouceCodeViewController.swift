@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class SouceCodeViewController: UIViewController {
 
@@ -18,6 +19,13 @@ class SouceCodeViewController: UIViewController {
     }
     
 
+    @IBAction func urlButton(_ sender: Any) {
+        if let url = URL(string: "http://bit.ly/2MGNTVY"){
+            let svc = SFSafariViewController(url: url);
+            present(svc, animated: true, completion: nil);
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

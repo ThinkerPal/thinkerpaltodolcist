@@ -438,7 +438,29 @@
                     <view key="view" contentMode="scaleToFill" id="02V-a5-Jbu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you are interested in helping us further develop this app, you may do so at:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnv-cS-Br5">
+                                <rect key="frame" x="16" y="132" width="343" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxi-iT-V6o">
+                                <rect key="frame" x="47" y="174" width="198" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="http://bit.ly/2MGNTVY"/>
+                                <connections>
+                                    <action selector="urlButton:" destination="FaX-DB-W1r" eventType="touchUpInside" id="07J-oE-At9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rnv-cS-Br5" firstAttribute="leading" secondItem="c8s-LM-7Y9" secondAttribute="leading" constant="16" id="e5d-D8-yc1"/>
+                            <constraint firstItem="c8s-LM-7Y9" firstAttribute="trailing" secondItem="rnv-cS-Br5" secondAttribute="trailing" constant="16" id="gDb-Ci-IYP"/>
+                            <constraint firstItem="rnv-cS-Br5" firstAttribute="top" secondItem="c8s-LM-7Y9" secondAttribute="top" constant="16" id="t6A-HF-4vd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="c8s-LM-7Y9"/>
                     </view>
                 </viewController>
