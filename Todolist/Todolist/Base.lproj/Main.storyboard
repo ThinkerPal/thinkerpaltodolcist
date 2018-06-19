@@ -412,10 +412,10 @@
             </objects>
             <point key="canvasLocation" x="-15" y="-964"/>
         </scene>
-        <!--View Controller-->
+        <!--About View Controller-->
         <scene sceneID="OPf-LB-2xd">
             <objects>
-                <viewController id="Nc1-lx-hg3" sceneMemberID="viewController">
+                <viewController id="Nc1-lx-hg3" customClass="AboutViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aR1-Mu-0Xj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -427,10 +427,10 @@
             </objects>
             <point key="canvasLocation" x="986" y="-2755"/>
         </scene>
-        <!--View Controller-->
+        <!--Souce Code View Controller-->
         <scene sceneID="hYG-Lp-9z5">
             <objects>
-                <viewController id="FaX-DB-W1r" sceneMemberID="viewController">
+                <viewController id="FaX-DB-W1r" customClass="SouceCodeViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="02V-a5-Jbu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,10 +442,10 @@
             </objects>
             <point key="canvasLocation" x="3118" y="-2418"/>
         </scene>
-        <!--View Controller-->
+        <!--Feature View Controller-->
         <scene sceneID="fKm-lM-mjx">
             <objects>
-                <viewController id="5pb-GA-mxj" sceneMemberID="viewController">
+                <viewController id="5pb-GA-mxj" customClass="FeatureViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qIn-no-0bD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -457,10 +457,10 @@
             </objects>
             <point key="canvasLocation" x="1972" y="-2514"/>
         </scene>
-        <!--View Controller-->
+        <!--Help View Controller-->
         <scene sceneID="Zow-0O-23N">
             <objects>
-                <viewController id="aip-KE-wA4" sceneMemberID="viewController">
+                <viewController id="aip-KE-wA4" customClass="HelpViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aAW-F6-ZOT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -472,10 +472,10 @@
             </objects>
             <point key="canvasLocation" x="4249" y="-2216"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact View Controller-->
         <scene sceneID="P4Y-wy-Mlv">
             <objects>
-                <viewController id="v7t-dw-qXb" sceneMemberID="viewController">
+                <viewController id="v7t-dw-qXb" customClass="ContactViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pjf-aJ-Vel">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
