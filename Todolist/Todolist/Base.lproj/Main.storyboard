@@ -203,7 +203,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="vbm-2d-GYw" kind="show" trigger="accessoryAction" id="1TY-Q4-gAU"/>
+                                            <segue destination="Nc1-lx-hg3" kind="show" id="AJ4-n3-6P9"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="nSa-1x-jbj">
@@ -286,6 +286,7 @@
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="KfC-kf-CE1" firstAttribute="leading" secondItem="zd1-86-WXc" secondAttribute="leading" id="Djf-Jb-JRA"/>
+                                                        <constraint firstAttribute="height" constant="43.5" id="Hof-uZ-Uvl"/>
                                                         <constraint firstItem="KfC-kf-CE1" firstAttribute="top" secondItem="zd1-86-WXc" secondAttribute="top" id="Zgj-6K-1Qu"/>
                                                     </constraints>
                                                 </stackView>
@@ -336,6 +337,7 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstAttribute="height" constant="43.5" id="qBg-5v-s7U"/>
                                                         <constraint firstItem="0On-ol-vFl" firstAttribute="top" secondItem="GxO-TE-4o7" secondAttribute="top" id="qFu-xq-5gd"/>
                                                     </constraints>
                                                 </stackView>
@@ -384,6 +386,7 @@
                                                     <constraints>
                                                         <constraint firstItem="4x9-E4-UZf" firstAttribute="top" secondItem="jVs-OA-6M7" secondAttribute="top" id="Vbm-ky-JTB"/>
                                                         <constraint firstItem="4x9-E4-UZf" firstAttribute="leading" secondItem="jVs-OA-6M7" secondAttribute="leading" id="b24-OQ-fwP"/>
+                                                        <constraint firstAttribute="height" constant="43.5" id="mLs-Uk-yKa"/>
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
@@ -544,24 +547,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mem-5w-5cx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-954" y="-218"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="OB4-sI-eFH">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="overCurrentContext" id="vbm-2d-GYw" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="MtC-GA-eUC">
-                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Nc1-lx-hg3" kind="relationship" relationship="rootViewController" id="DF3-XO-cNq"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T3n-aF-mSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-52" y="-3154.2728635682161"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
