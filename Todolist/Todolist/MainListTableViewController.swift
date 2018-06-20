@@ -9,6 +9,9 @@
 import UIKit
 
 class MainListTableViewController: UITableViewController {
+    
+    var AToDo: [aToDo]!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +21,15 @@ class MainListTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    @IBAction func backToMainList(with segue: UIStoryboardSegue) {
+        if segue.identifier == "saveUnwind" {
+            let source = segue.source as! AddandEditTodoTableViewController
+            AToDo.append(source.atodo)
+            tableView.reloadData()
+        }
+        
     }
 
     // MARK: - Table view data source

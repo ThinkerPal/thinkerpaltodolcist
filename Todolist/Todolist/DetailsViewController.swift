@@ -10,9 +10,19 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    var ATODO: aToDo!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "editTodo" {
+            let nav = segue.destination as! UINavigationController
+            let dest = nav.viewControllers[1] as! AddandEditTodoTableViewController
+            dest.atodo = ATODO
+        }
     }
 
 
