@@ -23,7 +23,6 @@
 		A03209FE20D8FA0000133ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03209FD20D8FA0000133ACB /* Assets.xcassets */; };
 		A0320A0120D8FA0000133ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03209FF20D8FA0000133ACB /* LaunchScreen.storyboard */; };
 		A1CA414820D9EEF5006D924C /* AddandEditTodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA414720D9EEF5006D924C /* AddandEditTodoTableViewController.swift */; };
-		A1CA414A20DA0345006D924C /* About image.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CA414920DA0344006D924C /* About image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +44,6 @@
 		A0320A0020D8FA0000133ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0320A0220D8FA0000133ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1CA414720D9EEF5006D924C /* AddandEditTodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddandEditTodoTableViewController.swift; sourceTree = "<group>"; };
-		A1CA414920DA0344006D924C /* About image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 				A03209FD20D8FA0000133ACB /* Assets.xcassets */,
 				A03209FF20D8FA0000133ACB /* LaunchScreen.storyboard */,
 				A0320A0220D8FA0000133ACB /* Info.plist */,
-				A1CA414920DA0344006D924C /* About image.png */,
 			);
 			path = Todolist;
 			sourceTree = "<group>";
@@ -166,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CA414A20DA0345006D924C /* About image.png in Resources */,
 				A0320A0120D8FA0000133ACB /* LaunchScreen.storyboard in Resources */,
 				A03209FE20D8FA0000133ACB /* Assets.xcassets in Resources */,
 				A03209FC20D8F9FF00133ACB /* Main.storyboard in Resources */,

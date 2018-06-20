@@ -25,7 +25,13 @@ class AddandEditTodoTableViewController: UITableViewController {
         super.viewDidLoad()
         doneBarButton.isEnabled = false
         importanceSlider.isContinuous = true
-        
+        if atodo != nil {
+            todoTitleField.text = atodo.title
+            todoDescriptionField.text = atodo.description
+            deadlineDatePicker.date = atodo.date
+            importanceSlider.value = Float(atodo.importance)
+            filenameField.text = atodo.fileName
+        }
         
         
         // Uncomment the following line to preserve selection between presentations
@@ -51,6 +57,11 @@ class AddandEditTodoTableViewController: UITableViewController {
             let importance = importanceSlider.value
             let filename = filenameField.text ?? ""
             atodo = aToDo(title: title, description: description, date: deadlineDatePicker.date, importance: Int(importance), done: false, fileName: filename)
+            if atodo == nil {
+                atodo = aToDo(title: title, description: description, date: deadlineDatePicker.date, importance: Int(importance), done: false, fileName: filename)
+            } else {
+                
+            }
         }
     }
     
