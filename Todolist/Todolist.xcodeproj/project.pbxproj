@@ -16,7 +16,6 @@
 		A0045F2D20D9550400459B7F /* SouceCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0045F2C20D9550400459B7F /* SouceCodeViewController.swift */; };
 		A0045F2F20D9550B00459B7F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0045F2E20D9550B00459B7F /* HelpViewController.swift */; };
 		A0045F3120D9551700459B7F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0045F3020D9551700459B7F /* ContactViewController.swift */; };
-		A018368520D98CF300DC940E /* NewCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018368420D98CF300DC940E /* NewCategoryTableViewController.swift */; };
 		A03209F720D8F9FF00133ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03209F620D8F9FF00133ACB /* AppDelegate.swift */; };
 		A03209F920D8F9FF00133ACB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03209F820D8F9FF00133ACB /* DetailsViewController.swift */; };
 		A03209FC20D8F9FF00133ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03209FA20D8F9FF00133ACB /* Main.storyboard */; };
@@ -34,7 +33,6 @@
 		A0045F2C20D9550400459B7F /* SouceCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouceCodeViewController.swift; sourceTree = "<group>"; };
 		A0045F2E20D9550B00459B7F /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		A0045F3020D9551700459B7F /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
-		A018368420D98CF300DC940E /* NewCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryTableViewController.swift; sourceTree = "<group>"; };
 		A03209F320D8F9FF00133ACB /* Todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03209F620D8F9FF00133ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03209F820D8F9FF00133ACB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				A03209F620D8F9FF00133ACB /* AppDelegate.swift */,
 				A03209F820D8F9FF00133ACB /* DetailsViewController.swift */,
 				A03209FA20D8F9FF00133ACB /* Main.storyboard */,
-				A018368420D98CF300DC940E /* NewCategoryTableViewController.swift */,
 				A0045F3220D9552400459B7F /* Settings Options */,
 				A0045F2220D9440800459B7F /* MainListTableViewController.swift */,
 				A0045F2020D93F6F00459B7F /* todo.swift */,
@@ -183,7 +180,6 @@
 				A0045F2D20D9550400459B7F /* SouceCodeViewController.swift in Sources */,
 				A0045F1F20D93E8300459B7F /* ArrangedTableViewController.swift in Sources */,
 				A0045F2120D93F6F00459B7F /* todo.swift in Sources */,
-				A018368520D98CF300DC940E /* NewCategoryTableViewController.swift in Sources */,
 				A0045F2F20D9550B00459B7F /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@ import UIKit
 
 class ArrangedTableViewController: UITableViewController {
 
+    var catName:String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,9 +18,21 @@ class ArrangedTableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
     }
-
+    @IBAction func newCategoryPressed(_ sender: Any) {
+        let alertController = UIAlertController(title: "Add a new category", message: "", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Save", style: .default, handler: { alert -> Void in
+            _ = alertController.textFields![0] as UITextField
+            // do something with textField
+        }))
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alertController.addTextField(configurationHandler: {(textField : UITextField!) -> Void in
+            textField.placeholder = "Category Name"
+        })
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     // MARK: - Table view data source
 
 //    override func numberOfSections(in tableView: UITableView) -> Int {
