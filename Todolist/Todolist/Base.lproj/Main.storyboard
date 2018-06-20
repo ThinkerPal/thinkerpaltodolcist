@@ -386,7 +386,7 @@
             </objects>
             <point key="canvasLocation" x="-954" y="637"/>
         </scene>
-        <!--Settings-->
+        <!--More-->
         <scene sceneID="is6-WH-nNe">
             <objects>
                 <tableViewController id="LpY-2h-WIW" customClass="SettingsTableViewController" customModule="Todolist" customModuleProvider="target" sceneMemberID="viewController">
@@ -651,7 +651,7 @@
                             <outlet property="delegate" destination="LpY-2h-WIW" id="e34-df-oOj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Settings" id="qFp-ix-tTz"/>
+                    <navigationItem key="navigationItem" title="More" id="qFp-ix-tTz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j1V-Hu-VB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -838,11 +838,11 @@
             </objects>
             <point key="canvasLocation" x="-2010" y="-582"/>
         </scene>
-        <!--Settings-->
+        <!--Navigation Controller-->
         <scene sceneID="f9E-yh-aCZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ODx-Cd-lmg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="baseline-settings-20px" landscapeImage="baseline-settings-20px" selectedImage="baseline-settings-20px" id="GYf-6f-gCk"/>
+                    <tabBarItem key="tabBarItem" selectedImage="baseline-settings-20px" systemItem="more" id="GYf-6f-gCk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="cpq-W8-kQz">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
