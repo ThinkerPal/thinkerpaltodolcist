@@ -407,7 +407,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9a2-3f-Vzb">
                                                     <rect key="frame" x="16" y="0.0" width="309" height="43.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L4J-Pa-gtc">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About image.png" translatesAutoresizingMaskIntoConstraints="NO" id="L4J-Pa-gtc">
                                                             <rect key="frame" x="0.0" y="0.0" width="50.5" height="43.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="L4J-Pa-gtc" secondAttribute="height" multiplier="50:43" id="jQN-hT-4g4"/>
@@ -458,7 +458,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rf3-YI-NXe">
                                                     <rect key="frame" x="16" y="0.0" width="309" height="43.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HXe-HN-2qp">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Features Image" translatesAutoresizingMaskIntoConstraints="NO" id="HXe-HN-2qp">
                                                             <rect key="frame" x="0.0" y="0.0" width="50.5" height="43.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="43.5" id="DVj-pn-M7c"/>
@@ -506,7 +506,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zd1-86-WXc">
                                                     <rect key="frame" x="16" y="0.0" width="309" height="43.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-kf-CE1">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Source Code Image" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-kf-CE1">
                                                             <rect key="frame" x="0.0" y="0.0" width="50.5" height="43.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50.5" id="9cn-ZD-ire"/>
@@ -558,7 +558,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxO-TE-4o7">
                                                     <rect key="frame" x="16" y="0.0" width="309" height="43.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0On-ol-vFl">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Help Image" translatesAutoresizingMaskIntoConstraints="NO" id="0On-ol-vFl">
                                                             <rect key="frame" x="0.0" y="0.0" width="50.5" height="43.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50.5" id="5ah-qU-PAF"/>
@@ -605,7 +605,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jVs-OA-6M7">
                                                     <rect key="frame" x="16" y="0.0" width="309" height="43.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-E4-UZf">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contact Us Image" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-E4-UZf">
                                                             <rect key="frame" x="0.0" y="0.0" width="50.5" height="43.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50.5" id="fYn-il-sSb"/>
@@ -878,6 +878,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="About image.png" width="225" height="225"/>
+        <image name="Contact Us Image" width="400" height="300"/>
+        <image name="Features Image" width="300" height="225"/>
+        <image name="Help Image" width="2000" height="2000"/>
+        <image name="Source Code Image" width="275" height="183"/>
         <image name="baseline-settings-20px" width="20" height="20"/>
         <image name="baseline_list_black_18dp" width="18" height="18"/>
     </resources>
