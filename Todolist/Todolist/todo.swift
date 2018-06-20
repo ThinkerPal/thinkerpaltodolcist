@@ -11,11 +11,11 @@ import Foundation
 class aToDo {
     var title: String
     var description: String
-    var date: String
+    var date: Date
     var importance: Int
     var done: Bool
     var fileName: String
-    init (title: String, description: String, date: String, importance: Int, done: Bool, fileName: String){
+    init (title: String, description: String, date: Date, importance: Int, done: Bool, fileName: String){
         self.title = title;
         self.description = description;
         self.date = date;
