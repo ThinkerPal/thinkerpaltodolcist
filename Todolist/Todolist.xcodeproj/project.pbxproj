@@ -22,6 +22,7 @@
 		A03209FC20D8F9FF00133ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03209FA20D8F9FF00133ACB /* Main.storyboard */; };
 		A03209FE20D8FA0000133ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03209FD20D8FA0000133ACB /* Assets.xcassets */; };
 		A0320A0120D8FA0000133ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03209FF20D8FA0000133ACB /* LaunchScreen.storyboard */; };
+		A1CA414820D9EEF5006D924C /* AddandEditTodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA414720D9EEF5006D924C /* AddandEditTodoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A03209FD20D8FA0000133ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0320A0020D8FA0000133ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0320A0220D8FA0000133ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CA414720D9EEF5006D924C /* AddandEditTodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddandEditTodoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				A0045F3220D9552400459B7F /* Settings Options */,
 				A0045F2220D9440800459B7F /* MainListTableViewController.swift */,
 				A0045F2020D93F6F00459B7F /* todo.swift */,
+				A1CA414720D9EEF5006D924C /* AddandEditTodoTableViewController.swift */,
 				A0045F1E20D93E8300459B7F /* ArrangedTableViewController.swift */,
 				A03209FD20D8FA0000133ACB /* Assets.xcassets */,
 				A03209FF20D8FA0000133ACB /* LaunchScreen.storyboard */,
@@ -180,6 +183,7 @@
 				A0045F2920D954B500459B7F /* AboutViewController.swift in Sources */,
 				A03209F720D8F9FF00133ACB /* AppDelegate.swift in Sources */,
 				A0045F3120D9551700459B7F /* ContactViewController.swift in Sources */,
+				A1CA414820D9EEF5006D924C /* AddandEditTodoTableViewController.swift in Sources */,
 				A0045F2D20D9550400459B7F /* SouceCodeViewController.swift in Sources */,
 				A0045F1F20D93E8300459B7F /* ArrangedTableViewController.swift in Sources */,
 				A0045F2120D93F6F00459B7F /* todo.swift in Sources */,

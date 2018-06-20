@@ -8,7 +8,7 @@
 
 import Foundation
 
-class aToDo {
+class aToDo: Codable {
     var title: String
     var description: String
     var date: Date
@@ -22,7 +22,13 @@ class aToDo {
         self.importance = importance;
         self.done = done;
         self.fileName = fileName;
-        
+    }
+    
+    static func loadSampleData() -> [aToDo] {
+        print("Loading Sample")
+        return [
+            aToDo(title: "Do Math Homework", description: "Finish Worksheet 1", date: Date(timeIntervalSince1970: 1513728000), importance: 3, done: false, fileName: "")
+        ]
     }
     
 }
